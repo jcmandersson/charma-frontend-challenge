@@ -83,20 +83,18 @@ Du har frihet att designa appen som du vill! Vi värderar:
 
 ## Inlämning
 
-### 1. GitHub Repository
-- Pusha din kod till ett **publikt GitHub-repo**
-- Inkludera en `README.md` med:
-  - Kort beskrivning av projektet
+### 1. Fork & utveckla
+- Fork:a detta repo och bygg din lösning
+- Uppdatera `README.md` med:
   - Instruktioner för att köra lokalt
   - Eventuella designval eller antaganden
 
 ### 2. Live Demo
 - Deploya på **Vercel**, Netlify eller liknande
-- Skicka länken till den deployade appen
 
 ### 3. Skicka in
 Maila oss:
-- Länk till GitHub-repo
+- Länk till din fork
 - Länk till live demo
 - Eventuella kommentarer om din lösning
 
