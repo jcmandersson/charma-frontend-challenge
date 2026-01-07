@@ -104,12 +104,11 @@ Maila oss:
 
 ### Kom igång snabbt
 1. **Fork:a** detta repo till ditt eget GitHub-konto
-2. Klona din fork och installera dependencies:
+2. Klona din fork och skapa Next.js-projektet:
 ```bash
 git clone https://github.com/DITT-ANVÄNDARNAMN/charma-frontend-challenge.git
 cd charma-frontend-challenge
-pnpm install
-pnpm dev
+npx create-next-app@latest . --typescript --tailwind --eslint --app
 ```
 
 ---
