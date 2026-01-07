@@ -1,0 +1,137 @@
+# Programmeringstest - Frontend Developer
+
+**Tech stack:** React, Next.js, TypeScript, Tailwind CSS
+
+---
+
+## Uppgiften
+
+Bygg en **"Recipe Finder"** - en snygg one-pager där användare kan söka och utforska recept.
+
+### Demo
+Tänk dig en enkel, snygg app där man kan:
+- Söka efter recept
+- Filtrera på kategori
+- Se detaljer om ett recept
+- Spara favoriter (lokalt)
+
+---
+
+## API
+
+Använd **TheMealDB** - ett gratis recept-API utan krav på API-nyckel.
+
+📖 **Dokumentation:** [themealdb.com/api.php](https://www.themealdb.com/api.php)
+
+---
+
+## Krav
+
+### Funktionella krav (must-have)
+
+1. **Sökfunktion**
+   - Sökfält där användaren kan söka på receptnamn
+   - Visa sökresultat i ett snyggt grid
+   - Hantera "inga resultat" på ett bra sätt
+
+2. **Kategori-filter**
+   - Dropdown eller knappar för att filtrera på kategori
+   - Hämta kategorier från API:et
+
+3. **Recept-kort**
+   - Visa bild, namn och kategori
+   - Klickbart för att se mer detaljer
+
+4. **Detaljvy**
+   - Visa fullständig information om receptet
+   - Ingredienser med mängder
+   - Instruktioner
+   - Kan vara modal, sidopanel eller separat route
+
+5. **Favoriter**
+   - Kunna spara recept som favorit (hjärta/stjärna)
+   - Spara i localStorage
+   - Visa sparade favoriter någonstans i UI:t
+
+### Tekniska krav
+
+- **Next.js** med App Router
+- **TypeScript** - typade props, API-responses, etc.
+- **Tailwind CSS** för styling
+- **Responsiv design** - funka på mobil och desktop
+- Hantera **loading states** och **errors** på ett bra sätt
+
+### Bonus (nice-to-have)
+
+- "Slumpmässigt recept"-knapp
+- Animationer/transitions
+- Dark mode
+- Dela recept-länk
+- PWA-funktionalitet
+
+---
+
+## Design
+
+Du har frihet att designa appen som du vill! Vi värderar:
+
+- **Ren, modern design** - gärna med lite personlighet
+- **God UX** - tydlig navigation, feedback på interaktioner
+- **Attention to detail** - hover-states, spacing, typografi
+
+---
+
+## Inlämning
+
+### 1. GitHub Repository
+- Pusha din kod till ett **publikt GitHub-repo**
+- Inkludera en `README.md` med:
+  - Kort beskrivning av projektet
+  - Instruktioner för att köra lokalt
+  - Eventuella designval eller antaganden
+
+### 2. Live Demo
+- Deploya på **Vercel**, Netlify eller liknande
+- Skicka länken till den deployade appen
+
+### 3. Skicka in
+Maila oss:
+- Länk till GitHub-repo
+- Länk till live demo
+- Eventuella kommentarer om din lösning
+
+---
+
+## Tips
+
+### Kom igång snabbt
+1. **Fork:a** detta repo till ditt eget GitHub-konto
+2. Klona din fork och installera dependencies:
+```bash
+git clone https://github.com/DITT-ANVÄNDARNAMN/charma-frontend-challenge.git
+cd charma-frontend-challenge
+pnpm install
+pnpm dev
+```
+
+---
+
+## Prioritering
+
+Om tiden inte räcker - prioritera i denna ordning:
+
+1. ✅ Grundläggande sök + visa resultat
+2. ✅ Recept-detaljvy
+3. ✅ Kategori-filter
+4. ✅ Favoriter
+5. ⭐ Bonus-features
+
+Bättre med en polerad MVP än en halvfärdig app med alla features!
+
+---
+
+## Frågor?
+
+Har du frågor om uppgiften? Tveka inte att höra av dig!
+
+**Lycka till!** 🍳
