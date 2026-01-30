@@ -87,11 +87,32 @@ Du har frihet att designa appen som du vill! Vi värderar:
 
 ## Inlämning
 
-1. **Fork:a** detta repo
-2. Bygg din lösning (skapa projektet i en undermapp, t.ex. `/app`)
-3. Uppdatera README med instruktioner för att köra lokalt
-4. **Deploya** på Vercel/Netlify
-5. **Maila** länk till fork + live demo
+1. **Kopiera** detta repo
+2. Skapa ett **nytt eget repo** på GitHub
+3. Bygg din lösning (skapa projektet i en undermapp, t.ex. `/app`)
+4. Uppdatera README med instruktioner för att köra lokalt
+5. **Deploya** på Vercel/Netlify
+6. **Maila** länk till ditt repo + live demo
+
+### Så här kopierar du repot
+
+```bash
+# Klona repot
+git clone https://github.com/charma-se/frontend-challenge.git
+cd frontend-challenge
+
+# Ta bort kopplingen till ursprungsrepot
+rm -rf .git
+
+# Initiera ett nytt git-repo
+git init
+git add .
+git commit -m "Initial commit"
+
+# Skapa ett nytt repo på GitHub och koppla ihop
+git remote add origin https://github.com/DITT-ANVÄNDARNAMN/DITT-REPO.git
+git push -u origin main
+```
 
 ---
 
